@@ -6,5 +6,5 @@ This is a repository to upload materials from contents of [AG's Tech Page](https
 
 
 ## Things
-* [Rust's Miri test and linked list](https://tech.acheul.net/p02_miri.html)
+* [Rust's Miri test and linked list](https://tech.acheul.net/posts/p02_miri.html)
   * [`/rust-miri`](https://github.com/AcheuleanGraph/tech.blob/tree/main/rust-miri)
