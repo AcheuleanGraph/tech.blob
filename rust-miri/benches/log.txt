@@ -1,0 +1,54 @@
+node_a_init             time:   [192.86 µs 204.38 µs 218.66 µs]
+                        change: [+7.8608% +16.775% +27.414%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 5 outliers among 100 measurements (5.00%)
+  1 (1.00%) high mild
+  4 (4.00%) high severe
+
+node_b_init             time:   [184.25 µs 196.42 µs 211.51 µs]
+                        change: [+8.3402% +16.730% +25.207%] (p = 0.00 < 0.05)
+                        Performance has regressed.
+Found 5 outliers among 100 measurements (5.00%)
+  3 (3.00%) high mild
+  2 (2.00%) high severe
+
+node_a_step             time:   [102.28 µs 106.12 µs 110.27 µs]
+Found 2 outliers among 100 measurements (2.00%)
+  2 (2.00%) high mild
+
+node_b_step             time:   [97.035 µs 100.53 µs 103.53 µs]
+
+node_a_cut              time:   [123.36 µs 126.35 µs 129.48 µs]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) low mild
+
+node_b_cut              time:   [116.75 µs 121.73 µs 126.68 µs]
+
+node_a_add1             time:   [10.641 ms 10.867 ms 11.141 ms]
+Found 3 outliers among 100 measurements (3.00%)
+  2 (2.00%) high mild
+  1 (1.00%) high severe
+
+node_b_add1             time:   [10.105 ms 10.295 ms 10.499 ms]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+
+Benchmarking node_a_add2: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 10.8s, or reduce sample count to 40.
+node_a_add2             time:   [104.42 ms 106.89 ms 109.65 ms]
+Found 5 outliers among 100 measurements (5.00%)
+  2 (2.00%) high mild
+  3 (3.00%) high severe
+
+Benchmarking node_b_add2: Warming up for 3.0000 s
+Warning: Unable to complete 100 samples in 5.0s. You may wish to increase target time to 9.8s, or reduce sample count to 50.
+node_b_add2             time:   [97.106 ms 98.804 ms 100.56 ms]
+
+node_a_tour             time:   [584.54 µs 598.71 µs 614.21 µs]
+Found 1 outliers among 100 measurements (1.00%)
+  1 (1.00%) high mild
+
+node_b_tour             time:   [397.60 µs 409.82 µs 423.48 µs]
+Found 2 outliers among 100 measurements (2.00%)
+  1 (1.00%) high mild
+  1 (1.00%) high severe
